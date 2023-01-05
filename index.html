@@ -55,9 +55,9 @@
         </div>
         <nav>
           <ul class="nav-links">
-            <li><a class="active" href="Home.html">Home</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
             <li>
-              <a class="" href="https://blackswipe.mysellix.io/">Shop</a>
+              <a class="" href="https://blackswipe.mysellix.io/" target="_blank">Shop</a>
             </li>
             <li><a class="" href="Status.html">Status</a></li>
             <div class="dropdown-container">
@@ -65,12 +65,10 @@
                 <i class="ri-menu-line"></i>
               </button>
               <div class="dropdown-list-container">
-                <div class="dropdown-list-wrapper">
-                  <div class="dropdown-list">
-                    <a href="Sign-In.html">Sign In</a>
-                    <a href="FAQ.html">FAQ</a>
-                    <a href="Contact.html">Contact</a>
-                  </div>
+                <div class="dropdown-list">
+                  <a href="Sign-In.html">Sign In</a>
+                  <a href="FAQ.html">FAQ</a>
+                  <a href="Contact.html">Contact</a>
                 </div>
               </div>
             </div>
@@ -95,10 +93,20 @@
               >
               <div>
                 <a href="https://discord.gg/blackswipe" target="_blank"
-                  ><button class="Btn-hero">Discord</button></a
+                  ><button class="Btn-hero">
+                    <div class="btn-text">
+                    <span>Discord</span>
+                    <i class="ri-discord-fill"></i>
+                    </div>
+                  </button></a
                 >
-                <a href="https://blackswipe.mysellix.io/"
-                  ><button class="Btn-hero">Purchase</button></a
+                <a href="https://blackswipe.mysellix.io/" target="_blank"
+                  ><button class="Btn-hero">
+                    <div class="btn-text">
+                    <span>Purchase</span>
+                    <i class="ri-shopping-cart-2-fill"></i>
+                    </div>
+                  </button></a
                 >
               </div>
             </div>
@@ -151,7 +159,7 @@
       <div class="info-sections">
         <div class="info-box">
           <div class="info-number">
-            <span class="num" data-val="60">0</span><span>+</span>
+            <span class="num" data-val="75">0</span><span>+</span>
           </div>
           <div class="info-text">
             <span>━ Customer</span>
@@ -160,7 +168,7 @@
 
         <div class="info-box">
           <div class="info-number">
-            <span class="num" data-val="200">0</span><span>+</span>
+            <span id="member-count" class="num" data-val="500">0</span><span>+</span>
           </div>
           <div class="info-text">
             <span>━ Member</span>
@@ -216,7 +224,7 @@
           ><img src="Images/Caterogy/Owerwatch 2 Category.jpg"
         /></a>
         <a href="https://blackswipe.mysellix.io/" class="category-box"
-          ><img src="Images/Caterogy/Sallpass product.png"
+          ><img src="Images/Caterogy/HWID Spoofer.png"
         /></a>
         <a href="https://blackswipe.mysellix.io/" class="category-box"
           ><img src="Images/Caterogy/Bloodhunt Category.jpg"
@@ -377,5 +385,6 @@
     </div>
 
     <script src="js/script.js"></script>
+    <script src="path/to/membercounter.js"></script>
   </body>
 </html>

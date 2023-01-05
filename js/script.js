@@ -75,8 +75,6 @@ const observer5 = new IntersectionObserver((entries) => {
     console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
-    } else {
-      entry.target.classList.remove("show");
     }
   });
 });
@@ -155,6 +153,12 @@ hiddenElements12.forEach((el) => observer9.observe(el));
 
 const hiddenElements13 = document.querySelectorAll(".faq-header");
 hiddenElements13.forEach((el) => observer9.observe(el));
+
+const hiddenElements14 = document.querySelectorAll(".status-header");
+hiddenElements14.forEach((el) => observer9.observe(el));
+
+const hiddenElements15 = document.querySelectorAll(".status-table");
+hiddenElements15.forEach((el) => observer9.observe(el));
 
 function decreaseQuantity() {
   var currentQuantity = parseInt(document.getElementById("quantity").innerHTML);
