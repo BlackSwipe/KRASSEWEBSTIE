@@ -310,6 +310,7 @@ ul .active {
     display: flex;
     justify-content: center;
     margin-left: 40px;
+    margin-top: 20px;
   }
 
   .reviews-section-1 {
@@ -325,7 +326,7 @@ ul .active {
   }
 }
 
-  .header-title2 {
+.header-title2 {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -491,7 +492,7 @@ ul .active {
   justify-content: center;
   text-align: center;
   margin-bottom: 50px;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 500;
 }
 
@@ -508,8 +509,7 @@ ul .active {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-block: 100px;
   transition: 0.3s;
 }
 
@@ -564,6 +564,7 @@ ul .active {
 
 .section-5 {
   background-color: var(--second-color);
+  padding-top: 100px;
   padding-bottom: 70px;
 }
 
@@ -573,7 +574,6 @@ ul .active {
   text-align: center;
   color: var(--contrast-color);
   font-weight: 500;
-  padding-top: 100px;
 }
 
 .caterogy-title {
@@ -581,7 +581,7 @@ ul .active {
   justify-content: center;
   text-align: center;
   font-size: 45px;
-  font-weight: 500;
+  font-weight: 650;
   margin-bottom: 30px;
   margin-top: 50px;
 }
@@ -751,6 +751,70 @@ ul .active {
 
 .review-box:nth-child(7) {
   transition-delay: 600ms;
+}
+
+@media (max-width: 800px) {
+  .header-title2 {
+    font-size: 35px;
+  }
+
+  .description-text {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .feature-section-2 {
+    margin-bottom: 40px;
+  }
+
+  .section-3 {
+    padding: 20px;
+  }
+
+  .info-number {
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+
+  .info-text {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .caterogy-text {
+    font-size: 18px;
+  }
+
+  .section-4 {
+    margin-top: 60px;
+  }
+
+  .section-4-body {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .section-4-description {
+    font-size: 16px;
+  }
+  
+  .icon-section {
+    margin-block: 50px;
+  }
+
+  .section-5 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .reviews-title {
+    font-size: 35px;
+  }
+
+  .section-6 {
+    padding-block: 50px;
+  }
+  
 }
 
 .footer {

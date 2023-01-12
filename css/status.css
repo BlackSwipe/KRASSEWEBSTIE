@@ -197,12 +197,14 @@ nav {
 .status-conditions {
   display: flex;
   justify-content: center;
+  filter: blur(5px);
+  transform: translateY(10%);
+  transition: all 1s;
 }
 
 .status-table-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 table {
@@ -214,9 +216,6 @@ table {
   border-radius: 15px;
   padding-block: 15px;
   margin-bottom: 50px;
-  filter: blur(5px);
-  transform: translateY(10%);
-  transition: all 1s;
 } 
 
 thead {
