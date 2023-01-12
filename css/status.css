@@ -164,26 +164,6 @@ nav {
   color: var(--contrast-color);
 }
 
-.dropdown-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.dropdown-button {
-  background: transparent;
-  border: none;
-  padding: 8px;
-}
-
-.ri-menu-line {
-  color: transparent;
-  font-size: 35px;
-}
-
-.dropdown-list-container {
-  display: none;
-}
-
 .status-container {
   display: block;
   margin-top: 30px;
@@ -214,15 +194,15 @@ nav {
   color: var(--contrast-color);
 }
 
-.show {
-  opacity: 1;
-  filter: blur(0px);
-  transform: translateY(0px);
+.status-conditions {
+  display: flex;
+  justify-content: center;
 }
 
 .status-table-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 table {
@@ -238,7 +218,6 @@ table {
   transform: translateY(10%);
   transition: all 1s;
 } 
-
 
 thead {
   font-weight: 600;
@@ -269,6 +248,12 @@ td, th {
   align-items: center;
   font-size: 22px;
   color: rgb(192, 173, 0);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateY(0px);
 }
 
 .footer {
