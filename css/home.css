@@ -127,14 +127,14 @@ nav {
   align-items: center;
 }
 
-.nav-links {
+ul {
   display: flex;
   font-size: 16px;
   align-items: center;
   margin-right: 30px;
 }
 
-.nav-links a {
+ul a {
   color: var(--text-color);
   margin-inline: 10px;
   transition: 0.3s;
@@ -142,7 +142,7 @@ nav {
   text-decoration: none;
 }
 
-.nav-links a::before {
+ul a::before {
   content: "";
   position: absolute;
   display: block;
@@ -155,11 +155,11 @@ nav {
   transition: transform 0.3s ease;
 }
 
-.nav-links a:hover::before {
+ul a:hover::before {
   transform: scaleX(1);
 }
 
-.nav-links .active {
+ul .active {
   color: var(--contrast-color);
 }
 
@@ -267,6 +267,18 @@ nav {
 }
 
 @media(max-width: 800px){
+  nav ul {
+    display: none;
+  }
+
+  #toggle-button {
+    display: none;
+  }
+
+  #toggle-button:checked ~ ul {
+    display: flex;
+  }
+
   .logo {
     margin-left: 20px;
   }
@@ -278,9 +290,15 @@ nav {
   .Btn-hero{
     justify-content: center;
   }
+
   .ml12 {
-    justify-content: center;
-    width: 390px;
+    font-size: 35px;
+    width: fit-content;
+    margin-top: -130px;
+  }
+ 
+  .hero {
+    margin-inline: 12px;
   }
 
   .buttons  {
@@ -288,14 +306,10 @@ nav {
     justify-content: center;
   }
 
-  .ml12 {
-    font-size: 39px;
-
-  }
-
   .GUI-cheat {
     display: flex;
     justify-content: center;
+    margin-left: 40px;
   }
 
   .reviews-section-1 {
@@ -308,10 +322,6 @@ nav {
 
   .feature-box {
     width: 12vw;
-  }
-
-  .info-number {
-    margin-bottom: 0px;
   }
 }
 
