@@ -691,8 +691,7 @@ ul .active {
   margin-bottom: 1.875rem;
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(5%);
-  transition: all 1s;
+  transform: translateX(-50%);
   transition: all 1s;
 }
 
@@ -811,7 +810,7 @@ ul .active {
   .section-6 {
     padding-block: 50px;
   }
-  
+
 }
 
 .footer {
