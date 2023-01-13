@@ -691,7 +691,7 @@ ul .active {
   margin-bottom: 1.875rem;
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(50%);
+  transform: translateX(5%);
   transition: all 1s;
   transition: all 1s;
 }
