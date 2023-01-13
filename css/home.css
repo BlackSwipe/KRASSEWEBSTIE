@@ -271,16 +271,13 @@ ul .active {
     display: none;
   }
 
-  #toggle-button {
-    display: none;
-  }
-
-  #toggle-button:checked ~ ul {
-    display: flex;
-  }
-
   .logo {
-    margin-left: 20px;
+    margin-left: 41%;
+  }
+
+  .logo-text, .logo-text-second {
+    display: none;
+    
   }
 
   .nav-links {
